@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    background-image: url(../AdobeStock_267544760_Preview.jpeg);
+    padding: 15px;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: greenyellow;
+}
+
+.login-form {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.login-form input {
+    padding: 8px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+}
+
+.login-form button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background: #218838;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 25px;
+    background: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.our-team-btn {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto;
+    transition: transform 0.3s;
+}
+
+.our-team-btn:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-image: url(../AdobeStock_552748421_Preview.jpeg);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9em;
+}
+
+.service-item {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 13px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.service-item:nth-child(2) { background: linear-gradient(135deg, #f093fb, #f5576c); }
+.service-item:nth-child(3) { background: linear-gradient(135deg, #4facfe, #00f2fe); }
+.service-item:nth-child(4) { background: linear-gradient(135deg, #43e97b, #38f9d7); }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 9px 0;
+}
+
+th, td {
+    padding: 6px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f8f9fa;
+}
